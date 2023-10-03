@@ -1,0 +1,49 @@
+ header {
+    padding-top: 41px; /*33*/
+    height: 50px;
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: end;
+}
+
+.nav__link {
+    margin-left: 61px; /*58*/
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav__link:hover,
+.nav__link:active 
+{
+    opacity: 0.5;
+    border-bottom: 1px solid rgb(0, 0, 0,0.5);
+} 
+
+@media (max-width: 1199px) {
+    header {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 17px;
+    }
+
+    .nav__list {
+        display: none;
+      }
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 31px 12px 0 13px;  /*завершить нужно*/
+    }
+}

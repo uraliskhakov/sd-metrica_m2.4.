@@ -1,0 +1,155 @@
+@import url(./styles/header.css);
+@import url(./styles/intro.css);
+@import url(./styles/about-us.css);
+@import url(./styles/projects.css);
+@import url(./styles/services.css);
+@import url(./styles/gallery.css);
+@import url(./styles/contacts.css);
+@import url(./styles/footer.css);
+@import url(./styles/heading.css);
+@import url(./styles/buttons.css);
+@import url(./styles/reviews.css);
+@import url(./styles/popup.css);
+@import url(./styles/input.css);
+@import url(./styles/burger.css);
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: white;     
+}
+
+.body_fixed {
+    overflow: hidden;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+    letter-spacing: -0.03em;
+}
+
+main {
+    background: #FFFFFF;
+}
+
+.container-black {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #121212;
+    color: #FFFFFF;
+    
+}
+
+.section-full {    
+    padding-top: 0;              /* .section-full*/
+    width: 100%; 
+} 
+
+ section,
+.container { 
+    margin: 0 auto;
+    width: 1150px;
+} 
+
+section{
+    padding-top: 150px;
+}
+
+.intro {
+    padding-top: 77px;
+}
+
+.section-long {
+    padding-bottom: 150px;
+    
+}
+
+.section-nopadd {             
+    padding: 0;
+}  
+                                       /**/
+@media (max-width: 1199px) {
+
+.intro {
+    padding-top: 78px;
+    }    
+
+.container-black {
+    width: 100%;
+}
+
+.section-full {                  /**/
+    width: 100%;
+    
+}
+
+.section-long {
+    padding-bottom: 100px;
+        
+    }
+
+.section-service {
+    padding-top: 150px; 
+    }  
+
+section,
+.container {
+    
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+section {
+    padding-top: 120px;   
+    }
+
+.section-reviews {
+    padding-bottom: 120px;
+}
+   
+}
+
+@media (max-width: 767px) {
+
+    .section-service {
+        padding-top: 80px; 
+    }  
+
+
+    section,
+    .container {
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+     }
+
+     section {
+        padding-top: 80px;
+     } 
+
+    .intro {
+            padding-top: 59px;     
+        }
+
+    .section-long {
+            padding-bottom: 81px;
+        }
+  
+}
+
+
+
+   
+
+
+
